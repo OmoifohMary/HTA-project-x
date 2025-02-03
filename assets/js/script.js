@@ -27,18 +27,32 @@ product.amount =
 console.log(product.amount);
 
 //object
-let portfolio = {
+let myPortfolio = {
   name: "Omoifoh Mary",
   service: "software engineering",
   about: "where is my house",
   contact: 09070133324,
 };
-portfolio["portfolio.about"] = 23 + "a abbah johnson";
-console.log(portfolio);
+myPortfolio["portfolio.about"] = 23 + "a abbah johnson";
+console.log(myPortfolio);
 
 let schools = ["hta", "nnpc", "ppcc", "nndc"];
 schools[3] = 9;
 console.log(schools.length); // array
-function myName() {
-  console.log("my world");
+//statment function
+function myName(name, age) {
+  console.log("my world" + name + " " + age);
 }
+myName(" john", 23);
+//performing a task
+
+function myTask(number) {
+  return number * 4;
+}
+
+console.log(myTask(6));
+
+function myCalculation(comfort) {
+  return comfort * 2;
+}
+console.log(myCalculation(10));
