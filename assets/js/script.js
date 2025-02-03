@@ -15,3 +15,30 @@ darkTheme = () => {
 const scrollup = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 };
+
+let product = {
+  amount: 34,
+  productPrice: 20,
+  productDiscount: 0.2,
+};
+product.amount =
+  product.amount -
+  (product.productPrice - product.productDiscount * product.productPrice);
+console.log(product.amount);
+
+//object
+let portfolio = {
+  name: "Omoifoh Mary",
+  service: "software engineering",
+  about: "where is my house",
+  contact: 09070133324,
+};
+portfolio["portfolio.about"] = 23 + "a abbah johnson";
+console.log(portfolio);
+
+let schools = ["hta", "nnpc", "ppcc", "nndc"];
+schools[3] = 9;
+console.log(schools.length); // array
+function myName() {
+  console.log("my world");
+}
