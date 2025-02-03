@@ -1,0 +1,15 @@
+.myNav a {
+  color: brown;
+  text-decoration: none;
+}
+ul {
+  display: flex;
+  gap: 80px;
+}
+ul li {
+  list-style: none;
+}
+img {
+  width: 70px;
+  height: 70px;
+}
